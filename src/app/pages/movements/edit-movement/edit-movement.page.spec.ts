@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { MovementDetailPage } from './movement-detail.page';
+import { EditMovementPage } from './edit-movement.page';
 
-describe('MovementDetailPage', () => {
-  let component: MovementDetailPage;
-  let fixture: ComponentFixture<MovementDetailPage>;
+describe('EditMovementPage', () => {
+  let component: EditMovementPage;
+  let fixture: ComponentFixture<EditMovementPage>;
 
   beforeEach(async(() => {
-    fixture = TestBed.createComponent(MovementDetailPage);
+    fixture = TestBed.createComponent(EditMovementPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

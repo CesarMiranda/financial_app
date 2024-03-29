@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {
     path: 'detail/:id',
-    loadChildren: () => import('./movement-detail/movement-detail.module').then( m => m.MovementDetailPageModule)
+    loadChildren: () => import('./edit-movement/edit-movement.module').then( m => m.EditMovementPageModule)
   }
 ];
 
